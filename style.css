@@ -1,4 +1,4 @@
-header{
+header {
     display: flex;
     background-color: #F5F5F6;
     ;
@@ -6,16 +6,19 @@ header{
     justify-content: space-around;
     align-items: center;
 }
-ul{
+
+ul {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
     color: #959BA4;
 }
-li{
+
+li {
     margin-right: 20px;
 }
-.exit{
+
+.exit {
     display: flex;
     width: 58px;
     height: 33px;
@@ -23,47 +26,59 @@ li{
     align-items: center;
     justify-content: center;
     font-size: 11px;
+    font-weight: bold;
 }
-main{
+
+main {
     display: flex;
     flex-direction: column;
 }
-h1{
+
+h1 {
     text-align: center;
     margin-top: 50px;
 }
-.window{
+
+.window {
     width: 259px;
 }
-.result1,.result2{
+
+.result1,
+.result2 {
     width: 260px;
     height: 102px;
     border: 1px solid #E5E5E5;
     margin-top: 20px;
-    color : #E5E5E5;
+    color: #E5E5E5;
 }
-.result1 p,.result2 p{
+
+.result1 p,
+.result2 p {
     margin: 10px;
 }
-button{
+
+button {
     width: 60px;
     height: 28px;
-    color : #C6C6C6;
+    color: #C6C6C6;
     background-color: white;
     border: 1px solid #E5E5E5;
 }
-.main-window{
+
+.main-window {
     display: flex;
     justify-content: space-around;
     //max-width: 743px;
 }
-input{
+
+input {
     width: 259px;
     height: 70px;
     font-size: 36px;
     border-style: none;
 }
-.selected{
+
+.selected {
     background-color: #833AE0;
     color: white;
 }
