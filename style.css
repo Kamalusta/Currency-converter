@@ -30,17 +30,20 @@ main{
 }
 h1{
     text-align: center;
-    
+    margin-top: 50px;
 }
 .window{
     width: 259px;
 }
-.result{
+.result1,.result2{
     width: 260px;
     height: 102px;
     border: 1px solid #E5E5E5;
     margin-top: 20px;
     color : #E5E5E5;
+}
+.result1 p,.result2 p{
+    margin: 10px;
 }
 button{
     width: 60px;
@@ -52,6 +55,7 @@ button{
 .main-window{
     display: flex;
     justify-content: space-around;
+    //max-width: 743px;
 }
 input{
     width: 259px;
