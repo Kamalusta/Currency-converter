@@ -40,7 +40,7 @@ h1 {
 }
 
 .window {
-    width: 259px;
+    width: 260px;
 }
 
 .result1,
@@ -62,7 +62,7 @@ h1 {
 }
 
 button {
-    width: 60px;
+    width: 65px;
     height: 28px;
     color: #C6C6C6;
     background-color: white;
@@ -81,10 +81,11 @@ input {
     border-style: none;
     padding-left: 10px;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .selected {
